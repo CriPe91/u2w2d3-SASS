@@ -1,0 +1,40 @@
+$size-0: 0;
+$size-1: 0.25rem;
+$size-2: 0.5rem;
+$size-3: 1rem;
+$size-4: 1.5rem;
+$size-5: 3rem;
+
+$font-serif: Georgia, "Times New Roman", Times, serif;
+
+$colorFont: #f4f4f4;
+
+$colorHero: rgb(35, 77, 168);
+
+header {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    ul {
+      display: flex;
+      justify-content: end;
+      list-style: none;
+    }
+  }
+
+  main {
+    .hero {
+      background-color: $colorHero;
+      color: $colorFont;
+    }
+  }
+  @mixin myH1() {
+    font-family: $font-serif;
+    color: black;
+  }
+  h1 {
+    @include myH1;
+  }
+}

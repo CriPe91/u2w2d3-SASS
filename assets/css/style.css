@@ -1,0 +1,18 @@
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav ul {
+  display: flex;
+  justify-content: end;
+  list-style: none;
+}
+header main .hero {
+  background-color: rgb(35, 77, 168);
+  color: #f4f4f4;
+}
+header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: black;
+}/*# sourceMappingURL=style.css.map */
